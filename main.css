@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .Logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .logocompany-logo{
+    position: absolute;
+    width: 27.81px;
+    height: 34.76px;
+    left: 81.98px;
+    top: 11.71px;
+}
+nav .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 423.35px;
+    height: 15px;
+    right: 82.26px;
+    top: 21.95px;
+
+}
+nav .titles {
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    left: 120px;
+    top: 16.1px;
+
+    font-family: Work Sans;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 21.952px;
+    line-height: 26px;
+
+    color: #2947A9;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.buildt{
+    z-index: 1000   ;
+    position: absolute;
+    width: 406.84px;
+    height: 124px;
+    left: calc(50% - 406.84px/2 - 241.62px);
+    top: 174.88px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52.6847px;
+    line-height: 62px;
+
+
+    color: #292E3D;
+
+}
+.main_decoration{
+    position: absolute;
+    height: auto;
+    width: 100vh;
+    left: 0px;
+    right: -0.31px;
+    top: 58.54px;
+
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(.png);
+}
