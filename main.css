@@ -12,12 +12,17 @@ body {
 }
 a {
     text-decoration: none;
+    color: black;
 }
 ul li{
     display: flex;
     align-items: center;
     height: 100%;
-    width: 100%;
+    width: 120%;
+    color: black;
+}
+ul{
+    list-style: none;
 }
 nav{
     display: flex;
@@ -45,7 +50,7 @@ nav .nav-links {
     padding: 0px;
 
     position: absolute;
-    width: 423.35px;
+    width: 500px;
     height: 15px;
     right: 82.26px;
     top: 21.95px;
@@ -58,7 +63,6 @@ nav .titles {
     left: 120px;
     top: 16.1px;
 
-    font-family: Work Sans;
     font-style: italic;
     font-weight: bold;
     font-size: 21.952px;
@@ -73,10 +77,9 @@ nav .titles {
     position: absolute;
     width: 406.84px;
     height: 124px;
-    left: calc(50% - 406.84px/2 - 241.62px);
+    left: 200px;
     top: 174.88px;
 
-    font-family: Work Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 52.6847px;
@@ -86,13 +89,18 @@ nav .titles {
     color: #292E3D;
 
 }
-.main_decoration{
-    position: absolute;
-    height: auto;
-    width: 100vh;
+section img .maindecoration{
+    height: 100vh;
+    width: 100vw;
+}
+.maindecoration{
+
+    height: 100vh;
+    width: 100vw;
+    position: relative;
     left: 0px;
     right: -0.31px;
-    top: 58.54px;
+    top: 50px;
 
-background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(.png);
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%),;
 }
