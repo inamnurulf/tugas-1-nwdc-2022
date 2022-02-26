@@ -104,3 +104,7 @@ section img .maindecoration{
 
 background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%),;
 }
+nav .nav-links li .active {
+    color:  #F9995D;
+    ;
+  }
